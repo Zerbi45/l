@@ -1,0 +1,36 @@
+.library {
+    padding: 20px;
+}
+
+.library h1 {
+    color: #ecf0f1;
+    margin-bottom: 20px;
+}
+
+.cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background-color: #34495e;
+    border-radius: 4px;
+    padding: 10px;
+    color: #ecf0f1;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.card h3 {
+    margin: 10px 0;
+}
+
+.card p {
+    color: #bdc3c7;
+    font-size: 14px;
+} 

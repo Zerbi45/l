@@ -1,0 +1,50 @@
+.boutique {
+    padding: 20px;
+}
+
+.boutique h1 {
+    color: #ecf0f1;
+    margin-bottom: 20px;
+}
+
+.items-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.shop-item {
+    background-color: #34495e;
+    border-radius: 4px;
+    padding: 10px;
+    color: #ecf0f1;
+}
+
+.shop-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.shop-item h3 {
+    margin: 10px 0;
+}
+
+.shop-item p {
+    color: #bdc3c7;
+    font-size: 14px;
+}
+
+.buy-button {
+    background-color: #3498db;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.buy-button:hover {
+    background-color: #2980b9;
+} 

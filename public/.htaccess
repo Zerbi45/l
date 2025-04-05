@@ -1,0 +1,3 @@
+# Force standards mode
+Header set X-UA-Compatible "IE=edge"
+Header set Content-Type "text/html; charset=utf-8" 
